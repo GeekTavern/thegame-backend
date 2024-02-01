@@ -1,0 +1,45 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-specific binaries
+/bin/
+/pkg/
+
+# Dependency directories (remove the "/" at the end to ignore the directory but include its contents)
+/vendor/
+/node_modules/
+
+# IDE and editor files
+.vscode/
+*.swp
+*.swo
+.idea/
+*.sublime-workspace
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+Desktop.ini
+
+# Linux-specific files
+.*.swp
+.*.swo
+*~
+
+# Log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Environment variables
+.env
