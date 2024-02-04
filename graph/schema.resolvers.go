@@ -15,6 +15,11 @@ func (r *mutationResolver) CreateUser(ctx context.Context, input model.NewUser) 
 	panic(fmt.Errorf("not implemented: CreateUser - createUser"))
 }
 
+// CreateStoryPoint is the resolver for the createStoryPoint field.
+func (r *mutationResolver) CreateStoryPoint(ctx context.Context, text string, image string) (string, error) {
+	panic(fmt.Errorf("not implemented: CreateStoryPoint - createStoryPoint"))
+}
+
 // Login is the resolver for the login field.
 func (r *mutationResolver) Login(ctx context.Context, input model.Login) (string, error) {
 	panic(fmt.Errorf("not implemented: Login - login"))

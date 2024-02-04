@@ -50,8 +50,8 @@ input Login {
 }
 
 type Mutation {
-  createUser(input: NewUser!): String!
+  createUser(input: NewUser!): ID!
+  createStoryPoint(text: String!, image: ID!): ID!
   login(input: Login!): String!
-  # we'll talk about this in authentication section
   refreshToken(input: RefreshTokenInput!): String!
 }
